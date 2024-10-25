@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.App {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(15, 112, 134, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color:lightblue;
+  color: #000;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+textarea {
+  background-color:lightblue;
+  color: #000;
+  resize: none;
+  height: 100px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  background-color: #e7f7e1;
+  border: 1px solid #c4e0b4;
+  border-radius: 5px;
+}
+.App {
+  transition: all 0.5s ease-in-out;
+}
+
+input, textarea, button {
+  transition: border-color 0.3s, background-color 0.3s;
+}
